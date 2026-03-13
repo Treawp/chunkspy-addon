@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "chunkspy-addon",
+  "version": "${version}",
+  "name": "ChunkSpy Addon",
+  "description": "Deteksi stash dari orientasi block mencurigakan",
+  "authors": ["EgaGanteng"],
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.egaganteng.chunkspy.ChunkSpyAddon"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.11"
+  }
+}
